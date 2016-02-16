@@ -74,7 +74,7 @@
 			var lineChartData = [
 			<?php foreach($last24hourValues as $row) { ?>
 			{
-                date: calcTime(<?php print strtotime($row['created_at']) * 1000; ?>, 2),
+                date: calcTime(<?php print strtotime($row['created_at']) * 1000; ?>, -5),
                 temp1: <?php print number_format($row['temp1'], 2); ?>,
             },
 			<?php } ?>
