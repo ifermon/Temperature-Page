@@ -1,0 +1,59 @@
+@import url("mystyle.css");
+
+body {
+    background: #ffffff; 
+    margin: 0; 
+    padding: 0;
+} 
+
+a {
+    color: #2b2bf6;
+}           
+
+#container {
+    width: 1000px; 
+    margin: 0; 
+    padding: 0; 
+    background: #dddddd;
+}           
+
+#temp_area {
+    width: 500px;  
+    height: 350px;  
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float:left;
+    background: #f346e1;
+}           
+
+#video_area {
+    width: 500px; 
+    height: 350px;  
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float:left;
+    background: #f0e811;
+}           
+
+#content {
+    width: 700px; 
+    height: 400px;  
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #8be0ef;
+}           
+
+#footer {
+    width: 900px;  
+    height: 70px;   
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; 
+    background: #000000; 
+    clear:both;
+}                            
